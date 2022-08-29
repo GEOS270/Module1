@@ -6,7 +6,7 @@ has_children: True
 nav_order: 1
 ---
 
-# History of GIS, Coordinate Reference Systems & Introduction to ArcGIS Pro
+# History of GIS & Introduction to ArcGIS Pro
 
 ## Learning Outcomes
 
