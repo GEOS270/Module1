@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Module 1
+title: Introduction to GIS
 # parent: Modules
 has_children: True
 nav_order: 1
 ---
 
-# History of GIS & Introduction to ArcGIS Pro
+# Introduction to GIS
 
 ## Learning Outcomes
 

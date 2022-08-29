@@ -1,7 +1,7 @@
 ---
 layout: default
 title: History of GIS
-parent: Module 1
+parent: Introduction to GIS
 has_children: true
 nav_order: 2
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is GIS?
-parent: Module 1
+parent: Introduction to GIS
 # has_children: true
 # grand_parent: Modules
 nav_order: 1
