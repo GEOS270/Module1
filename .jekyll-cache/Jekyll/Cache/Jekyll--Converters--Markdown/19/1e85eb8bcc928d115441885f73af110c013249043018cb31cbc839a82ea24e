@@ -1,0 +1,135 @@
+I"3<h1 class="no_toc" id="foundations-of-epidemiology">Foundations of Epidemiology</h1>
+
+<p>We are going to replicate one of the foundational studies in <a href="https://en.wikipedia.org/wiki/Epidemiology">Epidemiology</a> and the closely related field of <a href="https://en.wikipedia.org/wiki/Health_geography">Health Geography</a> using modern GIS techniques. Before we get into the doing the analysis, lets get some context behind why this is important.</p>
+
+<p><strong>Note</strong> This section covers <strong><a href="Assessment.md#foundations-of-epidemiology">question 7</a></strong> in the module quiz</p>
+
+<hr />
+
+<details open="">
+  <summary class="text-delta">
+    Table of contents
+  </summary>
+<ol id="markdown-toc">
+  <li><a href="#miasma-vs-germ-theory" id="markdown-toc-miasma-vs-germ-theory">Miasma vs. Germ Theory</a></li>
+  <li><a href="#belief-perseverance" id="markdown-toc-belief-perseverance">Belief Perseverance</a></li>
+  <li><a href="#foundations-of-epidemiology-1" id="markdown-toc-foundations-of-epidemiology-1">Foundations of Epidemiology</a></li>
+</ol>
+
+</details>
+<hr />
+
+<h1 id="miasma-vs-germ-theory">Miasma vs. Germ Theory</h1>
+
+<p>Early forms of <a href="https://en.wikipedia.org/wiki/Germ_theory_of_disease">germ theory</a>, the concept that disease transmission is driven by pathogens, emerged around the world more than 2000 years ago.  By the middle ages, Islamic physicians had formally proposed the basics of germ theory.  For example, writing about an outbreak of the bubonic plague in <a href="https://en.wikipedia.org/wiki/Ibn_al-Khatib#On_the_Plague">1362</a>, Ibn al-Khatib astutely pointed out:</p>
+
+<ul>
+  <li><em>“The existence of contagion is established by experience [and] by trustworthy reports on transmission by garments, vessels, ear-rings; by the spread of it by persons from one house, by infection of a healthy sea-port by an arrival from an infected land [and] by the immunity of isolated individuals.”</em></li>
+</ul>
+
+<p>Yet European physicians clung to the <a href="https://en.wikipedia.org/wiki/Miasma_theory">miasma theory</a> for many centuries.  This theory attributed diseases such as cholera to “bad air”.</p>
+
+<h2 class="no_toc" id="hand-washing-an-early-case-study">Hand Washing: An Early Case Study</h2>
+
+<p>The Vienna Maternity Hospital had two clinics with vastly different maternal mortality rates.  Between 1840 and 1846, the maternal mortality rate was 10% at the “First” clinic but only 4% at the “Second” clinic run by midwives.</p>
+<ul>
+  <li>The First clinic was run by physicians and medical students.
+    <ul>
+      <li>They started each day with postmortem examinations.  They then proceeded to the maternity, <strong>ward without washing their hands</strong>, where the students did vaginal examinations as part of their training (Loudon, 2013).</li>
+    </ul>
+  </li>
+  <li>The Second clinic was run by midwives.
+    <ul>
+      <li>They generally had more sanitary practices (Varney &amp; Thompson 2015) and they did not do postmortems or vaginal examinations (Loudon, 2013).</li>
+      <li>Consequently they tended to have lower mortality rates.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>In 1847, the new chief resident Ignaz Semmelweis suspected contagions from the cadavers were to blame.  Semmelweis mandated hand washing and sanitizing instruments with a chlorine solution for both clinics.</p>
+
+<ul>
+  <li>By 1848, the maternal mortality rate in both clinics fell to 1.3% (Loudon, 2013).</li>
+  <li>Despite the overwhelming evidence in favor of sanitizing, the practice was rejected by the European medical community because it was in conflict with the Miasma theory.
+    <ul>
+      <li>Semmelweis’ was replaced in 1849, sanitizing fell out of practice, and death rates began to rise again.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="content/images/ViennaHospital.png" height="500" style="border:1px solid black" /></p>
+
+<!-- <div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/images/ViennaHospital.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 90%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 90%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div> -->
+
+<p><a href="content/images/ViennaHospital.png" target="_blank">View Image in New Tab</a></p>
+
+<h1 id="belief-perseverance">Belief Perseverance</h1>
+<p>In the face of mounting evidence many doctors and public officials stubbornly refused to acknowledge that basic hygiene and sanitation could save lives for decades because they were attached to the Miasma theory.</p>
+
+<ul>
+  <li>Some were also offended by the idea that physicians themselves were vectors for disease transmission because <a href="https://en.wikipedia.org/wiki/Charles_Delucena_Meigs"><em>“a gentleman’s hands are clean”</em></a>.</li>
+</ul>
+
+<p>Rejection of sanitary practices in the European medical community is an example of <a href="https://en.wikipedia.org/wiki/Belief_perseverance">belief perseverance</a>.  Historically, this is a common issue that has impeded numerous scientific advancements (eg. plate tectonics, climate change, vaccines, etc).</p>
+<ul>
+  <li>Belief perseverance has many causes but it is often exacerbated by misogyny, racism, and ethnocentrism (eg. Rossiter 1993).</li>
+</ul>
+
+<h1 id="foundations-of-epidemiology-1">Foundations of Epidemiology</h1>
+
+<p><a href="https://en.wikipedia.org/wiki/John_Snow#Cholera">Dr. John Snow</a> was a physician practicing in London where cholera outbreaks were a frequent occurrence due to poor sanitation practices.  Dr. Snow was a skeptic of the miasma theory and a proponent of germ theory.</p>
+
+<ul>
+  <li>In 1849 he proposed cholera that it was spread by fecal contaminated water, after comparing cholera rates between London districts supplied by different water companies.</li>
+</ul>
+
+<p>Five years later, during an outbreak in London’s SoHo neighborhood in 1854, Dr. Snow was able to identify the point source of an the outbreak using a hand-sketched map.</p>
+
+<ul>
+  <li>He recorded each case of cholera in the area using a dash, and recorded each water pump with a circled dot, creating what today would be called a <strong>dot map</strong>.
+    <ul>
+      <li>By recording clusters of disease, and conducting interviews, Snow was able to trace most cases of the outbreak to a single water pump, located on Broad st.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Using his map, Dr. Snow was able to convince the local council to remove the pump handle and the outbreak subsided.</p>
+
+<ul>
+  <li>Despite this, the medical community in London continued to reject the idea that Cholera was caused by fecal contamination for another twenty years.</li>
+</ul>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/images/Snow_Map.jpg" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<p><a href="content/images/Snow_Map.jpg" target="_blank">View Image in New Tab</a></p>
+
+<h1 class="no_toc" id="references">References</h1>
+
+<p>Loudon, I. (2013). Ignaz Phillip Semmelweis’ studies of death in childbirth. Journal of the Royal Society of Medicine, 106(11), 461–463. https://doi.org/10.1177/0141076813507844</p>
+
+<p>Rossiter, M. W. (1993). The Matthew Matilda Effect in Science. Social Studies of Science, 23(2), 325–341.</p>
+
+<p>Varney, H., &amp; Thompson, J. B. (2015). A History of Midwifery in the United States. Springer Publishing Company. https://connect.springerpub.com/content/book/978-0-8261-2538-5</p>
+:ET

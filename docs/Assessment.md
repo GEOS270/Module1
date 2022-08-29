@@ -9,39 +9,44 @@ nav_order: 3
 
 You can submit your answers to these questions via the Module 1 Quiz on Canvas.  Questions are listed here with hyperlinks to the relevant section of the lab if you need help finding answers.
 
-## Rubrics
+## Rubric
+
+Written answers and maps will be evaluated using the rubric below and your TA will provide brief comments where applicable.
+
+* If you need more feedback you can follow up with your TA via email or in lab.
+* Categories are just general guides
+    * Your TA may assign scores between these levels
+
+
+|      Category      |                   Written Answers                |                 Map/Chart Submissions                             |Score|
+|--------------------|--------------------------------------------------|-------------------------------------------------------------------|-----|
+|Missing             |N/A                                               |N/A                                                                |0%   |
+|Insufficient        |Missing major key points or serious logical flaws |Serious errors in analysis, missing data, or major stylistic issues|25%  |
+|Below Expectations  |Missing a few key points or minor logical flaws   |Minor errors in analysis or multiple stylistic issues              |50%  |
+|Meets Expectations  |Hits key points and mostly well constructed       |Error free analysis, minor stylistic issue                         |75%  |
+|Exceeds Expectations|Clearly thought out, concise, and astute          |Error free analysis and clean, aesthetically pleasing map          |100% |
 
 ### Written Answers 
 
-Written answers should be brief but they should adequately answer the question.  Bullet point format is sufficient unless otherwise specified.  All written answers will be evaluated following this general rubric.
+Written answers can be brief but they should adequately answer the question.
 
-* Scores & categories are general guides, you TA may assign scores between these levels
-* Your TA will provide brief comments where applicable, if you need more feedback you can follow up with your TA.
+* Bullet point format is okay **unless otherwise specified**
 
-|Score|      Category      |                             Details                              |
-|-----|--------------------|------------------------------------------------------------------|
-|0%   |Missing             |N/A                                                               |
-|40%  |Insufficient        |Minimal effort, missing major key points, or serious logical flaws|
-|60%  |Below Expectations  |Missing a few key points or minor logical flaws                   |
-|80%  |Met Expectations    |Hits key points and mostly well constructed                       |
-|100% |Exceeds Expectations|Clearly thought out, concise, and astute                          |
+### File Submissions
 
+Map/charts/figures will be evaluated for completeness and aesthetics.
 
-### Map Submissions
+* For module 1 as long as you can make a map with the necessary elements, you'll get full credit!
+    * Later in term, maps will be evaluated to a higher standard
+* Files should be saved as using the file type specified (.pdf, .png, etc.)
+    * Make sure to double check the file before uploading!
 
-Maps will be evaluated for completeness following the rubric below.  Later in term, maps will be evaluated for correctness and cartography.  For now, as long as you can make a map with the necessary elements, you'll get full credit!
-
-|Score| Category |                     Details                     |
-|-----|----------|-------------------------------------------------|
-|0%   |Missing   |N/A                                              |
-|50%  |Incomplete|Did not follow instructions, missing key elements|
-|100% |Complete  |Successfully made a map with required components |
 
 ---
 
 # Quiz Questions 
 
-## Redlining
+## Map Projections
 
 [**1)**](/docs/Application_Part1.md)
 In your own words, describe what a map projection is.  Why do we use them and why are they all wrong?
@@ -83,7 +88,7 @@ What is the first step when creating a new point layer?
 - Make sure you are zoomed into your area of interest. 
 - Create point feature class in the project geodatabase
 
-## Foundations of Eipdemiology
+## Foundations of Epidemiology
 
 [**7)**](docs/Application_Part3.md#belief-perseverance)
 In your own words, what is belief perseverance and how did it inhibit the development of European medicine? Give your own example of belief perseverance. This can be a historical example or one from your own personal experience.
@@ -99,10 +104,10 @@ A ______ is a file management structure that is unique to ESRI products.
 - Shapefile
 - Geodatabase
 
-[**10)**](docs/Application_Part3_1.md#georeferencing#inspect-the-data)
+[**10)**](docs/Application_Part3_1.md#inspect-the-data)
 How many cholera deaths were recorded in this outbreak? ______ How many locations (points) are in the dataset? ______ What is the highest number of deaths at one location? ______
 
-[**11)**](docs/Application_Part3_2.md#georeferencing#symbolize-by-count)
+[**11)**](docs/Application_Part3_2.md#symbolize-by-count)
 ______ point symbols are sized differently to convey magnitude/intensity.
 
 - Triangular

@@ -52,6 +52,13 @@
   top: 10%;
 }
 
+.question{
+  position: relative;
+  text-align: left;
+  top: 10%;
+}
+
+
 .header {
   top: 1%;
   height: 10%;
@@ -94,10 +101,7 @@
 }
 
 img {
-    /* background: #3A6F9A; */
     vertical-align: middle;
-    /* max-height: 25px;
-    max-width: 160px; */
 }
 
 .figure {
@@ -116,7 +120,7 @@ img {
 
 h1 {
   display: block;
-  /* font-size: 2.5em !important; */
+  font-size: 3em !important; 
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   margin-left: 0;
@@ -137,6 +141,7 @@ h2 {
 .reveal a {
   color: blue;
 }
+
 .reveal {
   background-color: #e6f9fc;
 }
@@ -320,12 +325,27 @@ ol ol li.nl::before {
                 </div>        
             </div>
         </section>
+
+        <section>
+            <div class="container">
+                <h1 class="title">TopHat Question 2</h1>
+                <div class="question">
+                    <p>The Ojibway people of the Great Lakes region created maps on scrolls of:</p>
+                    <ul>
+                        <li>Birch Bark</li>
+                        <li>Papyrus Paper</li>
+                        <li>Silk</li>
+                        <li>Animal Hide</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         
         <section>
             <div class="container">
                 <h2 class="header">Advent of Surveying</h2>
                 <div class="left">
-                    <p>As coalesced, methods for the <b>systematic</b> collection of spatial information were developed.</p>
+                    <p>As societies coalesced, methods for the <b>systematic</b> collection of spatial information were developed.</p>
                     <ul>
                         <li>Objects needed to be drawn to scale</li>
                         <ul>
@@ -333,7 +353,9 @@ ol ol li.nl::before {
                         </ul>
                         <li>Surveys were used to:</li>
                         <ul>
-                            <li>Demarcate agricultural fiels, construct buildings, & plan settlements</li>
+                            <li>Demarcate agricultural fields</li>
+                            <li>Construct buildings</li>
+                            <li>Plan settlements</li>
                         </ul>
                     </ul>
                 </div>   
@@ -440,9 +462,9 @@ ol ol li.nl::before {
             <div class="container">
                 <h2 class="header">The Compass</h2>
                 <div class="left">
-                    <p>Lodestones are naturally occurring magnetic minerals.</p>
+                    <p>Lodestones are naturally occurring magnetic minerals.  They were used to make compasses by the Olmec civilization (3000 B.P.).</p>
                     <ul>
-                        <li>Used by the Olmec civilization (3000 B.P.) to orient their cities</li>
+                        <li>Oriented buildings and cities</li>
                         <ul>
                             <img src="images/Olmec_compas.png" width="80%" style = "border:2px solid #555">
                         </ul>
@@ -450,7 +472,7 @@ ol ol li.nl::before {
                 </div>
                 <div class="figure">
                     <span class="helper"></span>
-                    <img src="images/olmec_orientation.png" width="100%" style = "border:2px solid #555">
+                    <img src="images/olmec_orientation.png" height="100%" style = "border:2px solid #555">
                 </div>        
             </div>
         </section>    
@@ -461,8 +483,9 @@ ol ol li.nl::before {
                 <div class="left">
                     <p>Separately developed by the Han Dynasty ~2200 B.P.</p>
                     <ul>
-                        <li>First used for navigation in China during the Song Dynasty ~ 1000 B.P.</li>
-                        <li>Made its way to Europe around 800 B.P.</li>
+                        <li>Initially used for orienting buildings</li>
+                        <li>Applied to marine navigation in China during the Song Dynasty ~ 1000 B.P.</li>
+                        <li>Reached Europe around 800 B.P.</li>
                         <ul>
                             <li>Spurred on the "Age of Exploration"</li>
                         </ul>
@@ -482,6 +505,7 @@ ol ol li.nl::before {
                     <p>Trade and travel expanded conceptualizations of what the world was.</p>
                     <ul>
                         <li>Greeks built on knowledge of the Egyptians & Mesopotamians</li>
+                        <li>Maps became more complex and "complete"</li>
                     </ul>
                 </div>
                 <div class="right" style="text-align: center;">
@@ -497,10 +521,10 @@ ol ol li.nl::before {
                 <div class="left">
                     <p>The first known <a href="https://en.wikipedia.org/wiki/Geography_(Ptolemy)#Atlas">Atlas</a> (1850 B.P.).</p>
                     <ul>
-                        <li>8 Volume GIS prototype with an index of place names</li>
-                        <li>Projected world map accounting for earth's curvature</li>
+                        <li>8 volume GIS prototype with an index of place names and projected maps</li>
                         <ul>
-                            <li>Underestimated earths size</li>
+                            <li>Accounted for earth's curvature but underestimated size</li>
+                            <img src="images/round_earth.png" width="80%" style = "border:2px solid #555">
                         </ul>
                     </ul>
                 </div>
@@ -518,7 +542,7 @@ ol ol li.nl::before {
                     <p>Advances in maritime technology, including the compass led to a wave of exploration.</p>
                     <ul>
                         <li>Culminated in the <a href="https://en.wikipedia.org/wiki/Ming_treasure_voyages">Ming Dynasty Treasure Voyages</a></li>
-                        <li>By 600 B.P., they had mapped most of South & East Asia, East Africa, Indonesia & Australia.</li>
+                        <li>By 600 B.P., they had mapped most of South & East Asia, East Africa, Indonesia & Australia</li>
                             <ul>
                                 <li>May have even visited the west coast of North America!</li>
                             </ul>
@@ -555,29 +579,12 @@ ol ol li.nl::before {
             <div class="container">
                 <h2 class="header">The Mercator Projection</h2>
                 <div class="left">
-                    <p>Revolutionized cartography.</p>
+                    <p>Revolutionized navigation and cartography.</p>
                     <ul>
                         <li>Follow constant bearing and reach any location on earth</li>
-                        <li>Still used today (e.g. Google Maps)</li>
-                        <img src="images/cylindrical.png" width="90%" style = "border:2px solid #555">
-                        
-                    </ul>
-                </div>
-                <div class="figure">
-                    <span class="helper"></span>
-                    <img src="images/mercator.png" width="100%" style = "border:2px solid #555">
-                </div>        
-            </div>
-        </section>  
-    
-        <section>
-            <div class="container">
-                <h2 class="header">Mercator Projection</h2>
-                <div class="left">
-                    <p>Revolutionized cartography.</p>
-                    <ul>
-                        <li>Follow constant bearing and reach any location on earth</li>
-                        <li>Still used today (e.g. Google Maps)</li>
+                        <ul>
+                            <li>Still used today (e.g. Google Maps)</li>
+                        </ul>
                         <img src="images/cylindrical.png" width="90%" style = "border:2px solid #555">
                         
                     </ul>
@@ -591,17 +598,34 @@ ol ol li.nl::before {
         
         <section>
             <div class="container">
-                <h2 class="header">Mercator Projection</h2>
+                <h2 class="header">The Mercator Projection</h2>
                 <div class="left">
-                    <p>However, the projection is problematic because it severely distorts the true size of some regions.</p>
+                    <p>The projection is problematic because it severely distorts the true size of some regions.</p>
                     <ul>
-                        <li>We'll discuss more about why this is in the next lecture</li>
+                        <li>Influences perceptions of high latitudes vs. equatorial regions</li>
+                        <li>We'll discuss more about why this is in Module 2</li>
                     </ul>
                 </div>
                 <div class="figure">
                     <span class="helper"></span>
-                    <img src="images/head_map.jpg" width="100%" style = "border:2px solid #555">
+                    <img src="images/head_map.jpg" height="500" style = "border:2px solid #555">
                 </div>        
+            </div>
+        </section>  
+
+        <section>
+            <div class="container">
+                <h1 class="title">TopHat Question 3</h1>
+                <div class="question">
+                    <p>This Mercator projection revolutionized navigation because you could use it to navigate anywhere in the world by following  a:</p>
+                    <ul>
+                        <li>Line of sight</li>
+                        <li>Constant bearing</li>
+                        <li>Sea bird</li>
+                        <li>Great circle</li>
+                        
+                    </ul>
+                </div>
             </div>
         </section>  
 
@@ -609,10 +633,11 @@ ol ol li.nl::before {
             <div class="container">
                 <h2 class="header">Spatial Analysis</h2>
                 <div class="left">
-                    <p>As our representation of space became more accurate and precise, humans could navigate more effectively.</p>
+                    <p>As our representation of space became more accurate and precise, our ability to make spatial inferences expanded as well.</p>
                     <ul>
-                        <li>Our ability to make spatial inferences expanded as well</li>
-                        <li>We'll recreate an example from history using modern methods in lab</li>
+                        <li>As part of the <a href="https://geos270.github.io/Module1/docs/Application_Part3.html">Module 1 Lab</a> we'll recreate an example from history using modern methods.</li>
+                        <ul>
+                        </ul>
                     </ul>
                 </div>
                 <div class="figure">
@@ -621,6 +646,24 @@ ol ol li.nl::before {
                 </div>        
             </div>
         </section>  
+
+        <section>
+            <div class="container">
+                <h2 class="header">Canadian Context</h2>
+                <div class="left">
+                    <p>Cartography facilitated colonialism and territorial expansion throughout Canadian history.</p>
+                    <ul>
+                        <li>The British and Canadian governments conducted surveys to map out resources</li>
+                        <li>Treated the land as a "blank canvas"</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <span class="helper"></span>
+                    <img src="images/BritishNA.jpg" width="100%" style = "border:2px solid #555">
+                </div>        
+            </div>
+        </section>  
+
 
         <section>
             <div class="container">
@@ -643,33 +686,13 @@ ol ol li.nl::before {
                 <div class="left">
                     <p>Building on GSC Surveys, the government "negotiated" the numbered treaties.</p>
                     <ul>
+                        <li>Cited survey maps as evidence of their "sovereignty"</li>
                         <li>The <a href="https://en.wikipedia.org/wiki/North-West_Mounted_Police#History">RCMP</a> were created to enforce treaties and displace Indigenous people</li>
                     </ul>
                 </div>
                 <div class="figure">
                     <span class="helper"></span>
                     <img src="images/numbered_treaties.gif" width="100%" style = "border:2px solid #555">
-                </div>        
-            </div>
-        </section>  
-
-        <section>
-            <div class="container">
-                <h2 class="header">Canada Land Inventory</h2>
-                <div class="left">
-                    <p>Mapped suitability of lands for: Agriculture, forestry, recreation and wildlife.</p>
-                    <ul>
-                        <li>Original maps can be found <a href="https://atlas.gc.ca/toporama/en/index.html">here</a></li>
-                        <li>Led to the creation of the first GIS</li>
-                        <ul>
-                            <li>Digital geographic database</li>
-                            <li>Advances in spatial analysis</li>
-                        </ul>
-                    </ul>
-                </div>
-                <div class="figure">
-                    <span class="helper"></span>
-                    <img src="images/CLI.png" width="100%" style = "border:2px solid #555">
                 </div>        
             </div>
         </section>  
@@ -707,6 +730,64 @@ ol ol li.nl::before {
             </div>
         </section>  
 
+
+        <section>
+            <div class="container">
+                <h2 class="header">Canada Land Inventory</h2>
+                <div class="left">
+                    <p>Mapped suitability of lands for: Agriculture, forestry, recreation and wildlife.</p>
+                    <ul>
+                        <li>Original maps can be found <a href="https://atlas.gc.ca/toporama/en/index.html">here</a></li>
+                        <li>The first operational GIS</li>
+                        <ul>
+                            <li>Digital geographic database</li>
+                            <li>Advances in spatial analysis</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="figure">
+                    <span class="helper"></span>
+                    <img src="images/CLI.png" width="100%" style = "border:2px solid #555">
+                </div>        
+            </div>
+        </section>  
+
+        <section>
+            <div class="container">
+                <h2 class="header">Commercial Development</h2>
+                <div class="left">
+                    <p>Following the CLI, a number of commercial software companies began developing GIS applications.</p>
+                    <ul>
+                        <li>Hardware improvements made the technology more accessible</li>
+                        <li>Mapping Display and Analysis System (MIDAS)</li>
+                        <ul>
+                            <li>First desktop GIS released in 1986</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="figure">
+                    <span class="helper"></span>
+                    <img src="images/GIS_Concept.png" width="100%" style = "border:2px solid #555">
+                </div>        
+            </div>
+        </section>  
+
+        <section>
+            <div class="container">
+                <h1 class="title">TopHat Question 4</h1>
+                <div class="question">
+                    <p>The Canada Land Inventory led to the creation of the first digital</p>
+                    <ul>
+                        <li>Atlas</li>
+                        <li>Spatial Analysis Method</li>
+                        <li>Database</li>
+                        <li>Geographic Information System</li>
+                    </ul>
+                </div> 
+            </div>
+        </section>  
+
+
     
     
 
@@ -729,7 +810,7 @@ ol ol li.nl::before {
       overview: false,
       loop: false,
       margin: 0.03,
-      width: 1300,
+      width: 1350,
       height: 700,
       transition: 'none',
       plugins: [ RevealMath.MathJax2 ]
@@ -739,31 +820,6 @@ ol ol li.nl::before {
     );
   </script>
 
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
-  <script>
-    // Full list of configuration options available at:
-    // https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-      controls: true,
-      progress: true,
-      history: true,
-      center: true,
-      overview: false,
-      loop: false,
-
-      transition: 'none', // none/fade/slide/convex/concave/zoom
-
-      // Optional reveal.js plugins, loaded from jsDelivr
-      dependencies: [
-        { src: srcUrlPrefix + 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
-        { src: srcUrlPrefix + 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-        { src: srcUrlPrefix + 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-        { src: srcUrlPrefix + 'plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
-        { src: srcUrlPrefix + 'plugin/zoom-js/zoom.js', async: true },
-        { src: srcUrlPrefix + 'plugin/notes/notes.js', async: true }
-      ]
-    });
-  </script> -->
 </body>
 
 </html>

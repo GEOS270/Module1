@@ -1,0 +1,126 @@
+I"�<h1 class="no_toc" id="arcgis-pro-tutorial">ArcGIS Pro Tutorial</h1>
+
+<p>To get familiar with ArcGIS Pro, you will complete an Introduction to ArcGIS Pro tutorial and watch a four other short videos.  The tutorial will take about 25 minutes and give you a brief overview of the ArcGIS Pro.  The videos illustrate other important aspects of the ArcGIS Pro software package and will take about 10-15 minutes to watch.</p>
+
+<p><strong>Note</strong> This section covers <strong><a href="Assessment.md#arcgis-pro-tutorial">questions 2 - 6</a></strong> in the module quiz</p>
+
+<hr />
+
+<details open="">
+  <summary class="text-delta">
+    Table of contents
+  </summary>
+<ol id="markdown-toc">
+  <li><a href="#introductory-tutorial" id="markdown-toc-introductory-tutorial">Introductory Tutorial</a></li>
+  <li><a href="#more-tutorial-videos" id="markdown-toc-more-tutorial-videos">More Tutorial Videos</a>    <ol>
+      <li><a href="#explore-your-data" id="markdown-toc-explore-your-data">Explore your data</a></li>
+      <li><a href="#make-a-layout" id="markdown-toc-make-a-layout">Make a layout</a></li>
+      <li><a href="#use-geoprocessing-tools" id="markdown-toc-use-geoprocessing-tools">Use Geoprocessing Tools</a></li>
+      <li><a href="#create-points-on-a-map" id="markdown-toc-create-points-on-a-map">Create Points on a Map</a></li>
+    </ol>
+  </li>
+</ol>
+
+</details>
+
+<hr />
+
+<h1 id="introductory-tutorial">Introductory Tutorial</h1>
+
+<p>If you have purchased ArcGIS Pro, you can sign in through the UBC ArcGIS online account you created. If you are using the lab computers, and don’t already have one, create a public account:</p>
+<ul>
+  <li>Click “Sign In” in the top right of <a href="https://www.esri.com/training/">this page</a></li>
+  <li>Click “Create a public account” and follow the steps</li>
+</ul>
+
+<p>Go to the <a href="https://pro.arcgis.com/en/pro-app/latest/get-started/introducing-arcgis-pro.htm">Introducing ArcGISPro</a> tutorial.  Watch the short introductory video, then work through the steps.  <strong>You will be submitting a map from this tutorial for credit.</strong></p>
+<ul>
+  <li>You already have a project open, so you can start with Open the project step 2 <em>Note</em>.</li>
+  <li><em>Note</em>, if you have trouble in “Opening the project, Step 3” for either tutorial, you can download the data for off line use instead</li>
+  <li>When you get to “Explore Views, Step 7”, double click on the map title and add your name following the video below.</li>
+</ul>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/videos/Part1_Author.mp4" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<p><a href="content/videos/Part1_Author.mp4" target="_blank">View Image in New Tab</a></p>
+
+<h2 class="no_toc" id="file-submission"><strong>File Submission</strong></h2>
+
+<p>Save the layout as a .pdf, name it <em>Central_Wellington_Layout.pdf</em>.  You will upload this map to canvas.  To save your layout reference the image below.</p>
+
+<p><strong class="label label-red">1)</strong> Click Share.</p>
+
+<p><strong class="label label-red">2)</strong> Click Layout Export.</p>
+
+<p><strong class="label label-red">3)</strong> Specify the output location and name your file.  Its best to use your Lab1_Project workspace so you can easily find this when its time to submit you map.</p>
+
+<p><strong class="label label-red">4)</strong> Click Export.</p>
+
+<p><img src="content/images/ExportLayout.png" height="500" style="border:1px solid black" /></p>
+
+<!-- <div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/images/ExportLayout.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div> -->
+
+<p><a href="content/images/ExportLayout.png" target="_blank">View Image in New Tab</a></p>
+
+<hr />
+
+<h1 id="more-tutorial-videos">More Tutorial Videos</h1>
+<p>ESRI offers quite a few tutorials on ArcGIS Pro.  Feel free to work though them if you have time!  But we’re just going to watch the overview videos from four tutorials to learn a bit more about what we can do with ArcGIS Pro.  I’ve hyperlinked to each tutoral page for your reference and embeded the relevant video below each video link.</p>
+
+<h2 id="explore-your-data">Explore your data</h2>
+<p>This tutorial shows you how you can interact with and explore data layers.  You can find the tutorial instructions <a href="https://pro.arcgis.com/en/pro-app/latest/get-started/explore-your-data.htm">here</a> or watch the video below.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p8ZeOffTG-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<hr />
+
+<h2 id="make-a-layout">Make a layout</h2>
+<p>This tutorial shows you how you can use map layouts to visualize data.  You can find the tutorial instructions <a href="https://pro.arcgis.com/en/pro-app/latest/get-started/add-maps-to-a-layout.htm">here</a> or watch the video below.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NZ9ei4-23MM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<hr />
+
+<h2 id="use-geoprocessing-tools">Use Geoprocessing Tools</h2>
+
+<p>This tutorial shows a few of the ways you can analyze geospatial data and see how different layers interact.  You can find the tutorial instructions <a href="https://pro.arcgis.com/en/pro-app/latest/get-started/use-geoprocessing-tools.htm">here</a> or watch the video below.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hdkHhaYHXyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<hr />
+
+<h2 id="create-points-on-a-map">Create Points on a Map</h2>
+
+<p>This tutorial shows how you can create a feature class and populate it with point features.  You can find the tutorial instructions <a href="https://pro.arcgis.com/en/pro-app/latest/get-started/create-points-on-a-map.htm">here</a> or watch the video below.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9LGPCDMUP2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+:ET

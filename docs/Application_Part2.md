@@ -12,6 +12,11 @@ nav_order: 2
 
 To get familiar with ArcGIS Pro, you will complete an Introduction to ArcGIS Pro tutorial and watch a four other short videos.  The tutorial will take about 25 minutes and give you a brief overview of the ArcGIS Pro.  The videos illustrate other important aspects of the ArcGIS Pro software package and will take about 10-15 minutes to watch.
 
+
+**Note** This section covers **[questions 2 - 6](Assessment.md#arcgis-pro-tutorial)** in the module quiz
+
+---
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -66,7 +71,10 @@ Save the layout as a .pdf, name it *Central_Wellington_Layout.pdf*.  You will up
 
 **4)**{: .label .label-red } Click Export.
 
-<div style="overflow: hidden;
+
+<img src="content/images/ExportLayout.png" height="500" style = "border:1px solid black">
+
+<!-- <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
   <iframe src="content/images/ExportLayout.png" title="Processes" scrolling="no" frameborder="0"
@@ -78,7 +86,8 @@ Save the layout as a .pdf, name it *Central_Wellington_Layout.pdf*.  You will up
    width: 100%;">
    <p>Your browser does not support iframes.</p>
  </iframe>
-</div>
+</div> -->
+
 <a href="content/images/ExportLayout.png" target="_blank">View Image in New Tab</a>
 
 ---

@@ -11,9 +11,21 @@ nav_order: 5
 
 Now that you've used kernel density to identify the location of the pump, we'll make our first map using a layout and add all the necessary map elements.
 
+**Note** This section covers **[question 14](Assessment.md#foundations-of-epidemiology)** in the module quiz
 
+---
+
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
+
+---
 
 # Creating a Layout
 Follow the steps as outlined and refer to the video below to add a new layout.
@@ -90,10 +102,10 @@ Add a north arrow & scale bar
 
 * Your map should look something like the map shown below. Different colors, element sizes, etc. are fine.  But it should have all the map elements listed above.
 
-<div style="overflow: hidden;
+<!-- <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/images/Final_Map.png" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/images/Final_Map.png" title="Processes" scrolling="no" frameborder="1"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -102,7 +114,11 @@ Add a north arrow & scale bar
    width: 100%;">
    <p>Your browser does not support iframes.</p>
  </iframe>
-</div>
+</div> -->
+
+<img src="content/images/Final_Map.png" width="500" style = "border:1px solid black">
+
+
 <a href="content/images/Final_Map.png" target="_blank">View Image in New Tab</a>
 
 ---

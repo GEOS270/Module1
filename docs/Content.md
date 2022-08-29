@@ -27,16 +27,18 @@ GIS can be used to help solve a wide range of geographic problems in different f
 * Epidemiology/Public Health
 * Planning (Urban, Hazards)
 * Conservation & Resource Management
-* Ecology/Biology
 * Economics
-* Climate Science.
+* Epidemiology
+* Climate Science
+* Ecology/Biology
+* Social Justice
 
 ---
 
-# TopHat Test
+# TopHat Question 1
 
-## Q1
+GIS is an acronym that stands for:
 
-
-
-
+- Geographic Information Science
+- Geographic Information System
+- Both Geographic Information Science and Geographic Information System

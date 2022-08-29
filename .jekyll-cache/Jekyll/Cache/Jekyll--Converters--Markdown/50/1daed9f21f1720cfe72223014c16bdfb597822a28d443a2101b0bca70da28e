@@ -1,0 +1,137 @@
+I"�<h1 class="no_toc" id="making-a-map">Making a Map</h1>
+
+<p>Now that you’ve used kernel density to identify the location of the pump, we’ll make our first map using a layout and add all the necessary map elements.</p>
+
+<p><strong>Note</strong> This section covers <strong><a href="Assessment.md#foundations-of-epidemiology">question 14</a></strong> in the module quiz</p>
+
+<hr />
+
+<details open="">
+  <summary class="text-delta">
+    Table of contents
+  </summary>
+<ol id="markdown-toc">
+  <li><a href="#creating-a-layout" id="markdown-toc-creating-a-layout">Creating a Layout</a></li>
+  <li><a href="#adding-map-elements" id="markdown-toc-adding-map-elements">Adding Map Elements</a>    <ol>
+      <li><a href="#legend" id="markdown-toc-legend"><strong>Legend</strong></a></li>
+      <li><a href="#title" id="markdown-toc-title"><strong>Title</strong></a></li>
+      <li><a href="#source-statement" id="markdown-toc-source-statement"><strong>Source Statement</strong></a></li>
+      <li><a href="#scale-bar-and-north-arrow" id="markdown-toc-scale-bar-and-north-arrow"><strong>Scale Bar and North Arrow</strong></a></li>
+    </ol>
+  </li>
+  <li><a href="#export-your-map" id="markdown-toc-export-your-map">Export Your Map</a></li>
+  <li><a href="#save-your-project" id="markdown-toc-save-your-project">Save your project.</a></li>
+</ol>
+
+</details>
+
+<hr />
+
+<h1 id="creating-a-layout">Creating a Layout</h1>
+<p>Follow the steps as outlined and refer to the video below to add a new layout.</p>
+<ul>
+  <li>Click the Insert tab and select Layout.  Choose an appropriate page size. <em>Letter size is good for most maps in this class, only use the bigger ones if you are making a poster.</em></li>
+</ul>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/videos/AddLayout.mp4" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<p><a href="content/videos/AddLayout.mp4" target="_blank">View Image in New Tab</a></p>
+
+<hr />
+
+<h1 id="adding-map-elements">Adding Map Elements</h1>
+<p>Follow the steps as outlined and refer to the video below to add the necessary map elements.  These map elements should be present on each map you make for the class unless otherwise specified.</p>
+
+<h2 id="legend"><strong>Legend</strong></h2>
+
+<p>Add a legend.  Remove any unwanted items from the legend using the check boxes.  Change the symbology of Kernel Density to 5 classes so it fits on the legend better and edit the layer name to make it more clear.  Reorder the legend items if desired.</p>
+<ul>
+  <li>Legends items have many different settings we can fine tune.  For now, we’ll just change a few.</li>
+  <li>You can add/remove &amp; reorder legend items using the check box on the right.</li>
+  <li>Changing the number of classes in the Kernel Density layer makes it fit better.</li>
+  <li>Slowly double clicking on an item in the table of contents on the left allows you to edit the text.  You can change layer names so they make more sense.</li>
+</ul>
+
+<h2 id="title"><strong>Title</strong></h2>
+
+<p>Add a a title using the Straight Text (see video).  Give your map an appropriate title and font size</p>
+<ul>
+  <li>Titles should be concise and descriptive.</li>
+  <li>They should be the largest font element on the map</li>
+</ul>
+
+<h2 id="source-statement"><strong>Source Statement</strong></h2>
+
+<p>Use the same procedure to add a data source, creator name, and date to the map.</p>
+<ul>
+  <li>It is important to credit data sources.</li>
+  <li>List yourself as the creator.</li>
+  <li>Add a date so the reader knows when the map was created.</li>
+  <li>The credit text can be smaller and “tucked away” at the bottom of the map.</li>
+</ul>
+
+<h2 id="scale-bar-and-north-arrow"><strong>Scale Bar and North Arrow</strong></h2>
+
+<p>Add a north arrow &amp; scale bar</p>
+<ul>
+  <li>Make sure your units are in metric!</li>
+</ul>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/videos/MapElements.mp4" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<p><a href="content/videos/MapElements.mp4" target="_blank">View Image in New Tab</a></p>
+
+<hr />
+
+<h1 id="export-your-map">Export Your Map</h1>
+
+<p><strong>File Submission:</strong> Save the layout as a .pdf, name it <em>Kernel_Density.pdf</em>.  You will upload it to canvas.</p>
+
+<ul>
+  <li>Your map should look something like the map shown below. Different colors, element sizes, etc. are fine.  But it should have all the map elements listed above.</li>
+</ul>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  &lt;iframe src="content/images/Final_Map.png" title="Processes" scrolling="no" frameborder="1"
+    style=0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;"&gt;
+   <p>Your browser does not support iframes.</p>
+ &lt;/iframe&gt;
+</div>
+<p><a href="content/images/Final_Map.png" target="_blank">View Image in New Tab</a></p>
+
+<hr />
+
+<h1 id="save-your-project">Save your project.</h1>
+
+<p>Click Save in the top left of the Arc Pro window.</p>
+<ul>
+  <li>If you are working on a Geography Department Lab computer, make sure to save your work the the H:/ drive and log off properly.  See the video of on the Lab Details page on canvas for a more detailed explanation.</li>
+</ul>
+:ET

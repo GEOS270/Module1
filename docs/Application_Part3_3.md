@@ -11,6 +11,10 @@ nav_order: 4
 
 We already know the Broad St. pump was the source of the outbreak, but lets explore a couple analysis techniques we could use to identify the source of an outbreak.
 
+**Note** This section covers **[questions 12 - 13](Assessment.md#foundations-of-epidemiology)** in the module quiz
+
+---
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -29,6 +33,7 @@ There are numerous ways to analyze the spatial distribution of a dataset.  The [
 * These measures roughly identify the Broad St. Pump as the source of the outbreak, as shown in the figure below.
   * However, they are rudimentary metrics at best.  They could be used to identify multiple point sources for example.
 
+<!-- 
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -41,7 +46,11 @@ There are numerous ways to analyze the spatial distribution of a dataset.  The [
    width: 100%;">
    <p>Your browser does not support iframes.</p>
  </iframe>
-</div>
+</div> -->
+
+
+<img src="content/images/Distribution.png" height="500" style = "border:1px solid black">
+
 <a href="content/images/Distribution.png" target="_blank">View Image in New Tab</a>
 
 ---

@@ -10,37 +10,17 @@ nav_order: 1
 
 ## Learning Outcomes
 
-This module will cover three general topics and will be delivered over two weeks.  It is intended to give a broad overview of the discipline and get you started with using GIS
+This module is intended to give a broad overview of the discipline and get you started with using GIS software.
 
-<!-- 
-### History of GIS
+Some of the things you can expect from this module:
 
-* First maps & surveys
-* Exploration and expansion - maps and colonialism
-* Development of atlases (first spatial databases)
-* Development of map projections and spatial analysis methods
-* Historical wrongs in GIS
-
-### Coordinate Reference Systems
-
-* Steps of Abstraction: 3D Earth >>> 2D Map
-* Local vs. Datums
-* Geographic Coordinate Systems
-* Projected Coordinate Systems
-* Map Scale
-
-### Introduction to ArcGIS Pro (Lab Weeks 1 & 2)
-
+* Overview of the development of GIS
+    * The first maps & surveys
+    * Creation of map projections and spatial analysis methods
+    * Development and proliferation of GIS technology
 * Get your bearings with ArcGSI Pro software package
-* Determine a layer's Coordinate Reference System
-* Investigate the impacts of Coordinate Reference System on analysis
-* Set the scale of your map
-* Brief overview of digitizing and georeferencing
-* Introduction to spatial analysis
-* Create and share a map -->
-
-
-<!-- ## Deliverables
-
-Every module has a corresponding canvas submission that will be scored out of 100 pts.  See the [assessment pages](docs/Assessment.md).
- -->
+    * Introductory tutorials from ESIR
+* Recreate a historical analysis using modern methods
+    * Brief overview of digitizing and georeferencing
+    * Introduction to spatial analysis
+    * Create and share a map

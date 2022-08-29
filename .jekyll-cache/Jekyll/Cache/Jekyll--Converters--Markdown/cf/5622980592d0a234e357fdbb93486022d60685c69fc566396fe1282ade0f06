@@ -1,0 +1,98 @@
+I"�<h1 class="no_toc" id="proliferation-of-gis">Proliferation of GIS</h1>
+
+<p>GIS has become a powerful, widely used tool for GIS in recent decades.</p>
+
+<details open="">
+  <summary class="text-delta">
+    Table of contents
+  </summary>
+<ol id="markdown-toc">
+  <li><a href="#proprietary-gis-software" id="markdown-toc-proprietary-gis-software">Proprietary GIS Software</a></li>
+  <li><a href="#open-source-gis" id="markdown-toc-open-source-gis">Open Source GIS</a></li>
+  <li><a href="#fremium-services" id="markdown-toc-fremium-services">Fremium Services</a></li>
+</ol>
+
+</details>
+
+<hr />
+
+<h1 id="proprietary-gis-software">Proprietary GIS Software</h1>
+
+<p>GIS is very much rooted in capitalism and the capitalist enterprise.  Consequently many of the initial developments in GIS were by for profit companies.  For example, <a href="https://www.esri.com/en-us/home">ESRI</a> is a leading producer of GIS software.  They make ArcGIS Pro, the software package we will be working with most in this class.</p>
+
+<p><strong>Proprietary</strong> software requires users to purchase a license in order to gain access and restricts access to source code, meaning users have no right to view or edit source code (inner workings of a program).  Common examples of proprietary technology include:</p>
+<ul>
+  <li>Operating Systems: Windows OS, Mac OS, IOS</li>
+  <li>Programming Languages: MATLAB, VBScript</li>
+  <li>Software Packages: Microsoft Office (Word, Excel, Power Point etc.), Adobe Illustrator, IOS, ArcMap</li>
+</ul>
+
+<p>Proprietary software licenses are often very expensive.  They pose a significant barrier to access for uses that aren’t affiliated with large institutions.</p>
+
+<h2 class="no_toc" id="arcgis-pro">ArcGIS Pro</h2>
+
+<p><img src="content/images/ESRI_license.png" width="1000" /></p>
+
+<hr />
+
+<h1 id="open-source-gis">Open Source GIS</h1>
+
+<p>There are alternatives!  Open source software packages have proliferated in recent years and are a viable alternative to the traditional options.  The the internet has connected like-minded developers and allowed for collaboration across the globe.</p>
+
+<p><strong>Open Source</strong> software is free to use, published under an open copyright license.  Users have the right to view, edit, and distribute the source code.  Common examples of open source technology include:</p>
+
+<ul>
+  <li>Operating Systems: Linux OS, Android</li>
+  <li>Programming Languages: Python, R, Java, etc.</li>
+  <li>Software Packages: Libre Office (Writer, Calc, Impress, etc.), Ink Scape, QGIS</li>
+</ul>
+
+<p>Open source software is more accessible because its free to download and use.</p>
+
+<h2 class="no_toc" id="qgis">QGIS</h2>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="https://www.qgis.org/en/site/" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<p><a href="https://www.qgis.org/en/site/" target="_blank">View slides in new tab</a></p>
+
+<h2 class="no_toc" id="open-street-maps">Open Street Maps</h2>
+
+<p><a href="https://www.openstreetmap.org/#map=10/49.2839/-122.8340&amp;layers=T">Open Street Maps</a> is a freely available public database of geospatial information.</p>
+
+<p><img src="content/images/OSM.png" width="1000" /></p>
+
+<h2 class="no_toc" id="programming-languages">Programming Languages</h2>
+
+<p>Programming languages like Python and JavaScript can be used to conduct a variety of geospatial analysis and make webmaps.  I created the map below using JavaScript.  I’ll talk a bit more about these methods later on in the term.</p>
+
+<p>Webmap for navigating to UBC micromet field sites.</p>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="https://ubc-micromet.github.io/FieldSiteMaps/" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
+<h1 id="fremium-services">Fremium Services</h1>
+
+<p>Companies like <a href="https://www.mapbox.com/mapbox-studio/">mapbox</a> and google provide some geospatial services that are “free” to a point.  For example, <a href="https://code.earthengine.google.com/">Google earth engine</a> provides its cloud based computational capabilities to non-commercial users free of charge.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gKGOeTFHnKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Bringing Historical Data into a GIS
+title: Bringing Data into a GIS
 parent: Foundations of Epidemiology
 grand_parent: Lab Assignment
-nav_order: 1
+nav_order: 2
 ---
 
 
@@ -12,6 +12,10 @@ nav_order: 1
 
 We are going to be working with the hand drawn cholera map created by Dr. Snow showing cholera cases in SoHo.  I've gone thought most of the steps of extracting the data for you already.  This section walks you throug the process of how it is typically done.
 
+
+**Note** This section covers **[questions 8 - 10](Assessment.md#foundations-of-epidemiology)** in the module quiz
+
+---
 
 <details open markdown="block">
   <summary>
@@ -70,11 +74,14 @@ The cholera deaths have already been digitized. Follow the steps as outlined and
 
 
 ## Inspect the Data
+{: .no_toc }
 
 Right click "COUNT" in the attribute table and choose "Statistics" as shown below.  A chart window and a properties pane will open.  Use the statistics in the properties pane to answer the question.
 
 
-<div style="overflow: hidden;
+<img src="content/images/Statistics.png" height="500" style = "border:1px solid black">
+
+<!-- <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
   <iframe src="content/images/Statistics.png" title="Processes" scrolling="no" frameborder="0"
@@ -86,7 +93,8 @@ Right click "COUNT" in the attribute table and choose "Statistics" as shown belo
    width: 100%;">
    <p>Your browser does not support iframes.</p>
  </iframe>
-</div>
+</div> -->
+
 <a href="content/images/Statistics.png" target="_blank">View Image in New Tab</a>
 
 ---

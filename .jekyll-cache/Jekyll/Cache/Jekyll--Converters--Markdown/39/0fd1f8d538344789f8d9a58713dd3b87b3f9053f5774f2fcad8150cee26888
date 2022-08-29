@@ -1,0 +1,41 @@
+I"�<h1 id="what-is-gis">What is GIS?</h1>
+
+<p>The <strong>GI</strong> stands for <strong>Geographic Information</strong>.  The <strong>S</strong> can be either <strong>Science</strong> or <strong>System</strong>.  You will often see them used interchangeably because they are very closely related.  Basically, you do GI<em>Science</em> with a GI<em>System</em>.</p>
+
+<h2 id="what-is-giscience">What is GIScience?</h2>
+
+<p>The science and study of geospatial information: GIScience is a framework we use to understand spatial information.  It is rooted in Cartography, the art and science of graphically mapping but it is inherently multidisciplinary and drawing on Computer Science, Mathematics &amp; Statistics, Remote Sensing, and many other fields.</p>
+
+<h2 id="what-is-a-gisystem">What is a GISystem?</h2>
+
+<p>Any system or tool we use to store and analyze geospatial information can broadly be considered a GISystem.  Until a the late 20th century, atlases and library map catalogues were our most advanced GIS.  Now we have a wide range of computer and web based GISystems.  Ranging from the “desktop” GIS applications like ArcGIS Pro that you will be using to cloud computing systems that can Terabytes of planetary scale data.</p>
+
+<h2 id="what-can-be-done-with-gis">What can be done with GIS?</h2>
+
+<p>GIS can be used to help solve a wide range of geographic problems in different fields:</p>
+
+<ul>
+  <li>Epidemiology/Public Health</li>
+  <li>Planning (Urban, Hazards)</li>
+  <li>Conservation &amp; Resource Management</li>
+  <li>Economics</li>
+  <li>Epidemiology</li>
+  <li>Climate Science</li>
+  <li>Ecology/Biology</li>
+  <li>Social Justice</li>
+</ul>
+
+<hr />
+
+<h1 id="tophat-test-question">TopHat Test Question</h1>
+
+<h2 id="q1">Q1</h2>
+
+<p>GIS is an acronym that stands for:</p>
+
+<ul>
+  <li>Geographic Information Science</li>
+  <li>Geographic Information System</li>
+  <li>Both Geographic Information Science and Geographic Information System</li>
+</ul>
+:ET

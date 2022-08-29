@@ -11,6 +11,11 @@ nav_order: 3
 {: .no_toc }
 Now we are going to change the symbology of the Deaths and Broad St. Pump so that they are more visible.  Follow the steps as outlined and refer to the video below.
 
+
+**Note** This section covers **[question 11](Assessment.md#foundations-of-epidemiology)** in the module quiz
+
+---
+
 <details open markdown="block">
   <summary>
     Table of contents
