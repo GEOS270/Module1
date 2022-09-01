@@ -121,5 +121,5 @@ What do the mean center and directional distribution tell us about a set of poin
 [**13)**](/Application_Part3_3.md#kernel-density)
 Why might Kernel Density be more useful for identifying the source of a source(s) of a cholera outbreak outbreak than the mean center and directional distribution?
 
-[**14)**](https://june-skeeter.github.io/Module1_GEOS270//Application_Part3_4.html)
+[**14)**](/Application_Part3_4.md)
 Upload your *Kernel_Density.pdf*.
