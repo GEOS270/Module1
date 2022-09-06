@@ -55,6 +55,7 @@ Follow the steps as outlined and refer to the video below to add the necessary m
 ## **Legend**
 
 Add a legend.  Remove any unwanted items from the legend using the check boxes.  Change the symbology of Kernel Density to 5 classes so it fits on the legend better and edit the layer name to make it more clear.  Reorder the legend items if desired.
+* Extra Stuff ......
 * Legends items have many different settings we can fine tune.  For now, we'll just change a few.
 * You can add/remove & reorder legend items using the check box on the right.
 * Changing the number of classes in the Kernel Density layer makes it fit better.
