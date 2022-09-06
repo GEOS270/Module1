@@ -29,7 +29,7 @@ nav_order: 1
 
 # Setting up a Project
 
-When ArcPro opens choose the Map under Blank Templates as shown below then create your new project.  I've named mine Lab1_Project so I can easily identify it.  This will be the name of the folder your project is saved in.  Set the location to an appropriate workspace.
+When ArcPro opens choose the Map under Blank Templates as shown below then create your new project.  I've named mine **Lab1_Project** so I can easily identify it.  This will be the name of the folder your project is saved in.  Set the location to an appropriate workspace.
 
 * I am working on my own computer, and my workspace workspace is "C:\GEOG270\2021_S1\Labs".  This is the location where the project folder will be reside.  If you are working on a lab computer, you should put your project in C:\temp.
 * It is **very important** to familiarize yourself with the procedures for [saving your work](https://geos270.github.io/Syllabus/docs/Lab_Tips.html#using-geography-lab-computers) if you are working on a lab computer.
@@ -38,21 +38,20 @@ When ArcPro opens choose the Map under Blank Templates as shown below then creat
 
 <img src="content/images/New_Project.png" height="500" style = "border:1px solid black">
 
-<!-- <div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="content/images/New_Project.png" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div> -->
 
-<a href="content/images/New_Project.png" target="_blank">View Image in New Tab</a>
+
+## Geodatabases
+
+By default, ArcPro creates a geodatabase with every new project.  You will see one called **Lab1_Project.gdb** in your project folder.
+
+**Geodatabase**: A file management structure that is unique to ESRI products. You don't have to store your data in a geodatabase (.gdb), but they have some enhanced functionality that makes them better than regular folders in some circumstances.  One helpful thing we can do in a .gdb, is create a feature dataset to store our census data.
+
+**Feature Dataset**: A collections of feature classes that are all in the same coordinate system.  When you add a data to a feature dataset, it will *automatically* be projected into the coordinate system we specify.  This can help us avoid making mistakes like working with data that is in the wrong coordinate system!  
+* We'll cover this point more in depth later on in term.
+
+**Feature Class**: A vector data layer stored in a geodatabase.  Its a special file type created by ESRI to store data effectively within ArcGIS Pro.  When vector data layers are not stored in a geodatabase, they are stored in other formats, such as shapefiles or geojsons.  
+* We'll cover this point more in depth later on in term.
+
 
 ---
 

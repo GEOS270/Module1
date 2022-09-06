@@ -92,7 +92,6 @@ Save the layout as a .pdf, name it *Central_Wellington_Layout.pdf*.  You will up
 
 ---
 
-
 # More Tutorial Videos
 ESRI offers quite a few tutorials on ArcGIS Pro.  Feel free to work though them if you have time!  But we're just going to watch the overview videos from four tutorials to learn a bit more about what we can do with ArcGIS Pro.  I've hyperlinked to each tutoral page for your reference and embeded the relevant video below each video link.
 
