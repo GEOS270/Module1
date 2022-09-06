@@ -53,6 +53,8 @@ Now we are going to change the symbology of the Deaths and Broad St. Pump so tha
 
 # Adding Labels
 
+MOre Stuff!
+
 Now we are going to add a label to Broad St. Pump so the map reader can identify it.  Follow the steps as outlined and refer to the video below.
 
 **1)**{: .label .label-green } Right click on Broad St. Pump and click Label.
