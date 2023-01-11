@@ -104,3 +104,22 @@ Webmap for navigating to UBC micromet field sites.
 Companies like [mapbox](https://www.mapbox.com/mapbox-studio/) and google provide some geospatial services that are "free" to a point.  For example, [Google earth engine](https://code.earthengine.google.com/) provides its cloud based computational capabilities to non-commercial users free of charge. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gKGOeTFHnKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# Tophat Questions
+
+## 1
+
+Which term describes freely accessible software that can be accessed, edited, and distributed by anyone?
+
+* Proprietary
+* Open Source
+* Fremium
+
+
+## 2
+
+ArcGIS Pro is a proprietary software package.  It is created and maintained by a private company and  requires users to purchase a license to access it.
+
+* True
+* False 
